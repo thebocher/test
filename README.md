@@ -7,6 +7,6 @@
 },
 "AllowedHosts": "*",
 "ConnectionStrings": {
-"DatabaseConnection": "Password=Password1; User Id=sa; Trust Server Certificate=True"
+"DatabaseConnection": "f"
 }
 }
