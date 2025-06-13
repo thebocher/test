@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBD_Test2.API", "src\APBD_Test2.API\APBD_Test2.API.csproj", "{7EA0018A-EF6A-4B16-B49A-3742D38C3F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBD_Test2.Infrastructure", "src\APBD_Test2.Infrastructure\APBD_Test2.Infrastructure.csproj", "{EA996408-E86F-48DE-B33E-6FBE4487AFC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBD_Test2.App", "src\APBD_Test2.App\APBD_Test2.App.csproj", "{28733EC2-48FD-4966-8D92-1E7A49E878AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EA0018A-EF6A-4B16-B49A-3742D38C3F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA0018A-EF6A-4B16-B49A-3742D38C3F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA0018A-EF6A-4B16-B49A-3742D38C3F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA0018A-EF6A-4B16-B49A-3742D38C3F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA996408-E86F-48DE-B33E-6FBE4487AFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA996408-E86F-48DE-B33E-6FBE4487AFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA996408-E86F-48DE-B33E-6FBE4487AFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA996408-E86F-48DE-B33E-6FBE4487AFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28733EC2-48FD-4966-8D92-1E7A49E878AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28733EC2-48FD-4966-8D92-1E7A49E878AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28733EC2-48FD-4966-8D92-1E7A49E878AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28733EC2-48FD-4966-8D92-1E7A49E878AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
